@@ -1,11 +1,11 @@
-# Xtreme Code M3U Playlist Generator
+# Xtream Codes M3U Playlist Generator
 
 A Python CLI script designed to reliably retrieve live stream data via the Xtream Codes API and generate clean, standardized M3U/M3U8 playlists. Perfect for automated operation (e.g., via Cron jobs) on Linux systems with advanced system maintenance and playlist optimization features.
 
 ## ✨ Features
 
 - **Playlist Generation**: Dynamically creates M3U, M3U8, or M3U8-Plus playlists
-- **Multi-Server Support**: Process multiple configured Xtream servers and user accounts in a single run
+- **Multi-Server Support**: Process multiple configured Xtreme servers and user accounts in a single run
 - **Modular Execution**: All maintenance and cleanup functions are controlled via optional arguments
 - **Clear Logging**: Provides timestamped output directly to console (Stdout/Stderr) for easy monitoring
 
