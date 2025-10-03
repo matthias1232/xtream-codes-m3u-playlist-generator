@@ -55,21 +55,21 @@ The script is executed via the command line with optional flags to enable desire
 Generates the playlists with default settings, no DNS update or cleaning:
 
 ```bash
-python3 xtream_script.py
+python3 get_services.py
 ```
 
 #### 2. Full Maintenance with M3U8 Plus
 Performs all maintenance steps, including DNS update and cleaning, and generates an M3U8 Plus file (typical for a Cron job):
 
 ```bash
-sudo python3 xtream_script.py --m3u8_plus --dns --clean --chmod
+sudo python3 get_services.py --m3u8_plus --dns --clean --chmod
 ```
 
 #### 3. Clean and M3U Generation Only
 Generates a cleaned M3U file without making any system changes:
 
 ```bash
-python3 xtream_script.py --m3u --clean
+python3 get_services.py --m3u --clean
 ```
 
 ## 🔒 Important Permission Notes
@@ -98,7 +98,7 @@ For automated execution via Cron, add a line like this to your crontab:
 
 ```bash
 # Run every 6 hours with full maintenance
-0 */6 * * * sudo /usr/bin/python3 /path/to/xtream_script.py --m3u8_plus --dns --clean --chmod
+0 */6 * * * sudo /usr/bin/python3 /path/to/get_services.py --m3u8_plus --dns --clean --chmod
 ```
 
 ## 🆘 Support
