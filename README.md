@@ -5,7 +5,7 @@ A Python CLI script designed to reliably retrieve live stream data via the Xtrea
 ## ✨ Features
 
 - **Playlist Generation**: Dynamically creates M3U, M3U8, or M3U8-Plus playlists
-- **Multi-Server Support**: Process multiple configured Xtreme servers and user accounts in a single run
+- **Multi-Server Support**: Process multiple configured Xtream servers and user accounts in a single run
 - **Modular Execution**: All maintenance and cleanup functions are controlled via optional arguments
 - **Clear Logging**: Provides timestamped output directly to console (Stdout/Stderr) for easy monitoring
 
