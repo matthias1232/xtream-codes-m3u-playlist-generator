@@ -16,7 +16,7 @@ A Python CLI script designed to reliably retrieve live stream data via the Xtrea
 Install the required Python libraries:
 
 ```bash
-pip install requests dnspython
+pip install -r requirements.txt
 ```
 
 ### 2. Configuration
