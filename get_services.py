@@ -211,7 +211,7 @@ def main():
     
     # Mutually Exclusive Group for M3U type
     group = parser.add_mutually_exclusive_group()
-    group.add_argument('--m3u8', action='store_true', help='Generates .m3u8 file (default is .m3u).')
+    group.add_argument('--m3u', action='store_true', help='Generates .m3u file (default is .m3u).')
     group.add_argument('--m3u8_plus', action='store_true', help='Generates .m3u8_plus file.')
     
     # Other Optional Arguments
@@ -225,11 +225,11 @@ def main():
     file_ext = ".m3u"
     m3u_type = "m3u"
     if args.m3u8_plus:
-        file_ext = ".m3u8_plus"
-        m3u_type = "m3u8_plus"
-    elif args.m3u8:
         file_ext = ".m3u8"
         m3u_type = "m3u8"
+    elif args.m3u:
+        file_ext = ".m3u"
+        m3u_type = "m3u"
 
     
     # Cron mode: Executes all servers sequentially in one run
