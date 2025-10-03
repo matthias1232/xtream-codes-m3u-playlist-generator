@@ -43,7 +43,7 @@ The script is executed via the command line with optional flags to enable desire
 
 | Option | Action | Description | Requires sudo |
 |--------|--------|-------------|---------------|
-| `--m3u8` | File Format | Generates a .m3u8 file | No |
+| `--m3u` | File Format | Generates a .m3u8 file | No |
 | `--m3u8_plus` | File Format | Generates a .m3u8_plus file (with extended attributes) | No |
 | `--clean` | Cleanup | Cleans stream names (removes API tags, control characters, etc.) | No |
 | `--dns` | System Maintenance | Updates the /etc/hosts file with the current host IPs | Yes |
