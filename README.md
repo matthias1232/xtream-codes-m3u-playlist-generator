@@ -65,11 +65,11 @@ Performs all maintenance steps, including DNS update and cleaning, and generates
 sudo python3 xtream_script.py --m3u8_plus --dns --clean --chmod
 ```
 
-#### 3. Clean and M3U8 Generation Only
-Generates a cleaned M3U8 file without making any system changes:
+#### 3. Clean and M3U Generation Only
+Generates a cleaned M3U file without making any system changes:
 
 ```bash
-python3 xtream_script.py --m3u8 --clean
+python3 xtream_script.py --m3u --clean
 ```
 
 ## 🔒 Important Permission Notes
